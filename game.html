@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <style media="screen">
+        canvas {
+            border: 1px black solid;
+            background: black;
+        }
+
+        body {
+            background-image: url("source/image/background.jpg");
+            background-position: center;
+        }
+
+    </style>
+    <script src="script/util.js"></script>
+    <script src="script/things.js"></script>
+    <script src="script/scene.js"></script>
+</head>
+<body>
+
+<div>
+    <canvas id="id-canvas" width="500" height="600"></canvas>
+    <div id="HP" style="background: yellowgreen;width: 500px;">
+        <p id="HPNum">HP:</p>
+    </div>
+    <div id="MP" style="background: cornflowerblue;width: 500px;">
+        <p id="MPNum">MP:</p>
+    </div>
+</div>
+
+
+<script src="script/game.js"></script>
+</body>
+</html>
