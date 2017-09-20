@@ -60,7 +60,7 @@ class MainScene extends Scene {
 
     updata() {
         if (this.game.clock % 15 === 0 && this.animals.length <= 10) {
-            this.animals.push(new Enemy(this.game, this.enemyBullet, randint(0, totalWidth - images['animal'].width), 0, randint(1, 3)))
+            this.animals.push(new Enemy(this.game, this.enemyBullet, randint(0, totalWidth - images['animal'].width), 0, randint(1, 5)))
         }
 
         this.player.updata()

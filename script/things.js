@@ -173,7 +173,7 @@ class Player extends Fighter {
 class Enemy extends Fighter {
     constructor(game, bullets, x = 200, y = 100, speed = 5, image_name = 'enemy1', bulletImage = 'bullet') {
         super(game, x, y, speed, image_name, bulletImage, bullets)
-        this.HP = randint(5, 10)
+        this.HP = randint(1, 5)
         this.speed = speed
         this.bulletSpeed = 2.5
         this.attackSpeed = 100
